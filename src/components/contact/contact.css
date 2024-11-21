@@ -1,0 +1,54 @@
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="%238A3FFC" d="M25.3,-34.1C37.3,-31.6,54.8,-32.3,67.3,-24.9C79.8,-17.5,87.3,-1.9,81.9,9.4C76.5,20.6,58.3,27.7,46.8,40.3C35.4,52.9,30.8,71.1,22.4,71.2C14,71.3,1.9,53.2,-14.8,49C-31.4,44.7,-52.6,54.3,-60,49.7C-67.5,45.2,-61.3,26.6,-64,9.1C-66.6,-8.3,-78.1,-24.6,-77.4,-39.3C-76.8,-53.9,-64.1,-66.9,-49.1,-68.1C-34.2,-69.3,-17.1,-58.6,-5.3,-50.5C6.6,-42.3,13.2,-36.6,25.3,-34.1Z" transform="translate(100 100)" /></svg>');
+  background-position: center; /* Centre l'image de fond */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+  background-size: cover; /* Couvre tout l'espace disponible sans déformation */
+  padding: 20px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.contact-info {
+  max-width: 300px;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: darkblue;
+}

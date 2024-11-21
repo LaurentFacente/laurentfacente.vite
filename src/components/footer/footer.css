@@ -1,0 +1,42 @@
+.footer {
+  background-color: #000000; /* Couleur de fond si désirée */
+  padding: 18px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Assure la distribution équilibrée */
+}
+
+.block_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centre le contenu dans le block */
+  width: 100%; /* Prend la pleine largeur pour éviter le wrapping */
+}
+
+.footer_text {
+  color: rgb(166, 159, 159);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  white-space: nowrap; /* Empêche le texte de passer à la ligne */
+  justify-content: center; /* Centre le contenu dans le block */
+}
+
+.socials {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0; /* Empêche les icônes de rétrécir */
+}
+
+.social_icon {
+  height: 25px;
+  fill: #8161ad;
+  transition: filter 300ms;
+}
+
+.social_icon:hover {
+  filter: brightness(1.2);
+}

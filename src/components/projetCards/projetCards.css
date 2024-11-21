@@ -1,0 +1,34 @@
+/* Styles de base pour le conteneur du projet */
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px 120px;
+}
+
+/* Style pour le titre du projet */
+.project-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: flex;
+  padding: 10px 20px;
+}
+
+/* Couleur spécifique pour partie du titre */
+.violet-project {
+  margin-left: 10px;
+  color: #8161ad;
+}
+
+/* Mise en forme des cartes dans le conteneur */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 50px;
+}
